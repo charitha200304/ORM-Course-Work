@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bef08c77-a82d-4477-a892-0741745920bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pQYiIIrGqrPL05el5mjDpAaT8B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/IdeaProjects/AutoCare hub",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bef08c77-a82d-4477-a892-0741745920bf" name="Changes" comment="" />
+      <created>1732699891129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732699891129</updated>
+      <workItem from="1732699892381" duration="794000" />
+      <workItem from="1732701022029" duration="76000" />
+      <workItem from="1732701109220" duration="528000" />
+      <workItem from="1732701677122" duration="29000" />
+      <workItem from="1732701718003" duration="35000" />
+      <workItem from="1732701762061" duration="74000" />
+      <workItem from="1732701851832" duration="80000" />
+      <workItem from="1732702137224" duration="40000" />
+      <workItem from="1732702188357" duration="31000" />
+      <workItem from="1732702231046" duration="909000" />
+      <workItem from="1732705546792" duration="57000" />
+      <workItem from="1732714819077" duration="5287000" />
+      <workItem from="1732734686344" duration="2000000" />
+      <workItem from="1732787398771" duration="37000" />
+      <workItem from="1732787445995" duration="183000" />
+      <workItem from="1732787893493" duration="14000" />
+      <workItem from="1732787981421" duration="665000" />
+      <workItem from="1732788668732" duration="120000" />
+      <workItem from="1732797407201" duration="1776000" />
+      <workItem from="1732799199343" duration="1143000" />
+    </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1732736377741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732736377741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1732736638627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732736638627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1732787516995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732787516995</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1732788600660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732788600660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1732788635128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732788635128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1732788761888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732788761889</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+  </component>
+</project>

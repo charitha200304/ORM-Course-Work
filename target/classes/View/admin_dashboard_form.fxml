@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.AdminDashBoardFormController">
+   <children>
+      <AnchorPane fx:id="Load" layoutX="273.0" layoutY="72.0" prefHeight="567.0" prefWidth="969.0" style="-fx-background-color: #6D3757;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="114.0" layoutX="51.0" layoutY="65.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="263.0" />
+            <Label layoutX="166.0" layoutY="81.0" text="Student Count" textFill="#6d3757">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblStudentCount" layoutX="194.0" layoutY="116.0" prefHeight="35.0" prefWidth="66.0" textAlignment="CENTER" textFill="#1f2881">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="86.0" layoutY="90.0">
+               <image>
+                  <Image url="@../Assets/images/icons8-students-64.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="114.0" layoutX="478.0" layoutY="65.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="263.0" />
+            <Label layoutX="587.0" layoutY="81.0" text="Programs Count" textFill="#6d3757">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProgramsCount" layoutX="623.0" layoutY="116.0" prefHeight="35.0" prefWidth="66.0" textAlignment="CENTER" textFill="#1f2881">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="500.0" layoutY="90.0">
+               <image>
+                  <Image url="@../Assets/images/icons8-courses-64.png" />
+               </image>
+            </ImageView>
+            <TableView fx:id="tblProgram" layoutX="61.0" layoutY="284.0" prefHeight="245.0" prefWidth="878.0">
+               <columns>
+                  <TableColumn fx:id="colID" prefWidth="166.3999900817871" text="Program Id" />
+                  <TableColumn fx:id="colName" prefWidth="289.59999084472656" text="Program Name" />
+                  <TableColumn fx:id="colDuration" prefWidth="224.79998779296875" text="Duration" />
+                  <TableColumn fx:id="colFee" prefWidth="198.40008544921875" text="Fee" />
+               </columns>
+            </TableView>
+            <Label layoutX="367.0" layoutY="220.0" text="Our Training Programs " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="170.0" onAction="#btnDashboardOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="Dash Board" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-dashboard-48.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="238.0" onAction="#btnStudentOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="Student" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-student-50.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="310.0" onAction="#btnProgramOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="Program" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-program-60.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="384.0" onAction="#btnPaymentOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="Payment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-payment-60.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="525.0" onAction="#btnUserOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-user-64.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="595.0" onAction="#btnLogOutOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-log-out-48.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label fx:id="lblTime" layoutX="947.0" layoutY="18.0" prefHeight="31.0" prefWidth="314.0" textFill="#89377f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="649.0" layoutY="16.0" text="Admin Dashboard" textFill="#564964">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="454.0" onAction="#btnEnrollmentOnAction" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #6D3757;" text="Enrollment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../Assets/icons/icons8-payment-60.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <ImageView fitHeight="132.0" fitWidth="183.0" layoutX="26.0" layoutY="44.0">
+         <image>
+            <Image url="@../Assets/images/A_letter_tech_logo__1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
